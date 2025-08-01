@@ -1,0 +1,15 @@
+# 忽略二进制文件
+/bin/
+/main
+*.exe
+
+# 忽略环境配置/敏感文件
+.env
+config/secrets.yaml
+
+# 忽略IDE文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
